@@ -1,0 +1,11 @@
+form {
+    margin: auto;
+    width: 250px;
+    text-align: left;
+}
+
+input, button {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}

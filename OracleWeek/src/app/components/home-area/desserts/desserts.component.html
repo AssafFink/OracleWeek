@@ -1,0 +1,11 @@
+<div class="box">
+
+    <span [ngStyle]="styling">Our Desserts: </span>
+
+    <span *ngIf="isWeekend()">Apple Pie 💚 </span>
+    
+    <span *ngIf="!isWeekend()">Ice Cream 💚 </span>
+
+    <span *ngFor="let d of desserts">{{d.name}} 💚 </span>
+
+</div>

@@ -1,0 +1,18 @@
+<div class="box">
+
+    <label>Location: </label>
+
+    <!-- <audio #myAudio></audio> -->
+
+    <select #userLocation (change)="show(userLocation.value)">
+        <option>North</option>
+        <option>South</option>
+        <option>East</option>
+        <option>West</option>
+    </select>
+
+    <button (click)="display()">Show</button>
+
+    <span>Your location: {{userLocation.value}}</span>
+
+</div>
